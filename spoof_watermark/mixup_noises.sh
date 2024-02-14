@@ -1,0 +1,5 @@
+python mixup_w_noise.py --A="images/noise/dwtDct"
+python mixup_w_noise.py --A="images/noise/dwtDctSvd"
+python mixup_w_noise.py --A="images/noise/rivaGan"
+python mixup_w_noise.py --A="images/noise/treeRing"
+python mixup_w_noise.py --A="images/noise/watermarkDM"

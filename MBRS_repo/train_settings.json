@@ -1,0 +1,19 @@
+{
+  "project_name": "MBRS",
+  "with_diffusion": false,
+  "only_decoder": false,
+  "epoch_number": 101,
+  "batch_size": 4,
+  "train_continue": false,
+  "train_continue_path": "/",
+  "train_continue_epoch": 0,
+  "dataset_path": "/fs/cml-datasets/ImageNet/ILSVRC2012",
+  "save_images_number": 4,
+  "H": 256,
+  "W": 256,
+  "message_length": 64,
+  "lr": 1e-3,
+  "noise_layers": [
+    "Combined([JpegMask(50),Jpeg(50),Identity()])"
+  ]
+}
